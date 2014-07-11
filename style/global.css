@@ -5,18 +5,18 @@
 }
 
 .icons__i{
-    list-style: none;
-    height: 77px;
-    width: 77px;
-    border-radius: 50%;
+	list-style:none;
+    float: left;
+	width: 77px;
+	height: 77px;
+	margin: 10px;
+	border-radius: 50%;
+	background-image: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%,rgba(0,0,0,0.1) 100%);
+	box-shadow: 0 2px 2px rgba(255,255,232,.5) inset,
+				1px 2px 4px rgba(0,0,0,.4);
 	text-align: center;
 	line-height: 77px;
 	font-size: 0;
-    float:left;
-    margin:10px;
-	background-image: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%,rgba(0,0,0,0.1) 100%); 
-    box-shadow:0 2px 4px rgba(0,0,0,.4),
-               0 2px 2px rgba(255,255,255,.5) inset;
 }
 
 .icons:after{
@@ -25,43 +25,9 @@
 	display:table;
 }
 
-
-.backspace{
-    background: url(../img/icon-back.png);
-}
-
-.cloud{
-    background: url("../img/icon-cloud.png");
-}
-
-.create{
-    background: url("../img/icon-create.png");
-}
-
-.edit{
-    background: url("../img/icon-edit.png");
-}
-
-.home{
-    width: 52px;
-	height: 48px;
-	background: url(../img/icon-home.png);
-}
-
-.info{
-    background: url("../img/icon-info.png");
-}
-
-.music{
-    background: url("../img/icon-music.png");
-}
-
-.trash{
-    background: url("../img/icon-trash.png");
-}
-
-.wait{
-    background: url("../img/icon-wait.png");
+.icon {
+	display: inline-block;
+	vertical-align: middle;
 }
 
 .home_background{
@@ -95,6 +61,61 @@
 .edit_background{
 	background-color: rgb(179,17,166);
 }
+
 .info_background{
 	background-color: rgb(13,234,242);
+}
+
+.backspace{
+	width: 58px;
+	height: 44px;
+    background: url(../img/icon-back.png);
+}
+
+.cloud{
+	width: 58px;
+	height: 41px;
+    background: url(../img/icon-cloud.png);
+}
+
+.create{
+	width: 43px;
+	height: 58px;
+    background: url(../img/icon-create.png);
+}
+
+.edit{
+	width: 47px;
+	height: 46px;
+    background: url(../img/icon-edit.png);
+}
+
+.home{
+	width: 52px;
+	height: 48px;
+	background: url(../img/icon-home.png);
+}
+
+.info{
+	width: 30px;
+	height: 58px;
+    background: url(../img/icon-info.png);
+}
+
+.music{
+	width: 45px;
+	height: 56px;
+    background: url(../img/icon-music.png);
+}
+
+.trash{
+	width: 42px;
+	height: 50px;
+    background: url(../img/icon-trash.png);
+}
+
+.wait{
+	width: 36px;
+	height: 58px;
+    background: url(../img/icon-wait.png);
 }
